@@ -10,6 +10,7 @@
 
 header {
     margin: 0;
+    font-family: "Goldman", sans-serif;
 }
 
 .PC1 {
@@ -41,10 +42,37 @@ header {
     height: 100px;
     text-align: center;
     padding: 0;
+    border: 5px solid black;
+    border-radius: 15px;
 }
 
-.banner {
-    /*background: url("../image/MyPC.jpg");*/
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 100px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.MyPC {
+    background: url("../image/MyPC.jpg");
     background-color: #000000;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,8 +82,12 @@ header {
 
 /*  BODY    */
 
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
 .PC2 {
-    /*background: url("../image/PC1.jpg");*/
+    background: url("../image/PC2.jpg");
     background-color: red;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +96,7 @@ header {
 }
 
 .PC3 {
-    /*background: url("../image/PC1.jpg");*/
+    background: url("../image/PC3.jpg");
     background-color: green;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,20 +105,66 @@ header {
 }
 
 .intro {
+    background-color: yellow;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 400px;
 }
 
-.intro-background {
-    background-color: yellow;
+.intro h2 {
+    text-align:center;
 }
 
-.media p {
-    background-color: blue;
-    width: 100%;
+.intro2 {
+    background-color: purple;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.media h5 {
+    text-align: center;
+}
+
+.media a {
+    color: #000000;
+}
+
+.media ul {
+    text-align: center;
+}
+
+/*  Paddings/Margins/Text   */
+
+ul {
+    list-style-type: none;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Goldman", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /*  Footer  */
 
-.foot {
-    background-color: purple;
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 100px;
+    margin: 0;
 }
